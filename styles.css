@@ -1,0 +1,169 @@
+﻿body.main { 
+background-color: #282828; 
+margin-top: 0px; 
+margin-bottom: 0px; 
+} 
+
+body.content { 
+background-color: #F5F5F5; 
+margin-top: 0px; 
+margin-bottom: 0px; 
+} 
+
+#container { 
+min-height:60em; 
+width: 1000px; 
+margin-right: auto; 
+margin-left: auto; 
+margin-top:10px;
+} 
+#logo{
+margin:10px 10px 10px 10px;
+width:400px;
+height:280px;
+}
+
+#header { 
+height: 300px; 
+margin-bottom:95px;
+background-color:#844;
+width:1000px;
+background-image:url('internships.jpg');
+background-repeat:no-repeat;
+background-position:right top;
+
+} 
+
+#sidebar { 
+min-height: 60em; 
+width: 249px;
+height:500px; 
+background-color: #F5F5F5; 
+float: left; 
+} 
+
+#mainContent { 
+min-height: 60em; 
+width: 746px;
+float: right; 
+margin-left:4px;
+
+} 
+
+/*---
+This Is Where The Horizontal Navigation Css Starts
+---*/
+
+#menu1{
+		background:#F5F5F5;
+		width:190px;
+		margin:5px 0 0 0 5px ;
+	}
+		#menu1 ul{
+			list-style:none;
+		}
+			#menu1 li{
+				list-style:none;
+				margin:10px 0;
+			}
+				#menu1 li a{
+				    font-family:tahoma;
+					list-style:none;
+					background:#844;
+					color:#FFF7EF;
+					text-transform:uppercase;
+					font-size:15px;
+					font-weight:bold;
+					text-decoration:none;
+					display:block;
+					height:35px;
+					line-height:35x;
+					padding:0 0 0 20px;
+				}
+					#menu1 li a:hover{
+						background:#505050;
+						color:#fff;
+						text-decoration:none;
+					}
+	
+					
+	/*---
+This Is Where The Vertical  Navigation Css Starts
+---*/
+
+#menu {padding:0 0 0 50px; margin:0; list-style:none; width:750px; float:right; border-top:10px solid #844; margin-top:0px; margin-right:-71px;margin-left:175px ;}/*Change Made Here*/
+#menu li {float:left; margin-right:15px;}
+#menu li a {display:block; width:0; height:0; border-left:35px solid #fff; border-right:35px solid #844; border-bottom:35px dashed transparent; position:relative; font-family:arial, sans-serif; font-size:11px; color:#000; text-decoration:none; top:48px;}/*---
+Changed To Black
+---*/
+#menu li b {position:absolute; left:-35px; top:-50px; height:50px; width:70px; line-height:50px; text-align:center; cursor:pointer; background:#fff;}
+
+.home #menu li#home a {color:#fff; border-left:35px solid red; border-right:35px solid red;}
+.home #menu li#home b {background:red;}
+.single #menu li#single a {color:#fff; border-left:35px solid orange; border-right:35px solid orange;}
+.single #menu li#single b {background:orange;}
+.dropdown #menu li#dropdown a {color:#fff; border-left:35px solid #cc0; border-right:35px solid #cc0;}
+.dropdown #menu li#dropdown b {background:#cc0;}
+.dropline #menu li#dropline a {color:#fff; border-left:35px solid green; border-right:35px solid green;}
+.dropline #menu li#dropline b {background:green;}
+.flyout #menu li#flyout a {color:#fff; border-left:35px solid blue; border-right:35px solid blue;}
+.flyout #menu li#flyout b {background:blue;}
+.support #menu li#support a {color:#fff; border-left:35px solid indigo; border-right:35px solid indigo;}
+.support #menu li#support b {background:indigo;}
+.spring #menu li#spring a {color:#fff; border-left:35px #009999; border-right:35px #009999;}
+.spring #menu li#spring b {background:#009999;}
+.contact #menu li#contact a {color:#fff; border-left:35px solid violet; border-right:35px solid violet;}
+.contact #menu li#contact b {background:violet;}
+
+
+#menu li#home a:hover, #menu li#home a:active, #menu li#home a:focus {color:#fff; border-left:35px solid red; border-right:35px solid red;}
+#menu li#home a:hover b, #menu li#home a:active b, #menu li#home a:focus b {background:red;}
+#menu li#single a:hover, #menu li#single a:active, #menu li#single a:focus {color:#fff; border-left:35px solid orange; border-right:35px solid orange;}
+#menu li#single a:hover b, #menu li#single a:active b, #menu li#single a:focus b {background:orange;}
+#menu li#dropdown a:hover, #menu li#dropdown a:active, #menu li#dropdown a:focus {color:#fff; border-left:35px solid #cc0; border-right:35px solid #cc0;}
+#menu li#dropdown a:hover b, #menu li#dropdown a:active b, #menu li#dropdown a:focus b {background:#cc0;}
+#menu li#dropline a:hover, #menu li#dropline a:active, #menu li#dropline a:focus {color:#fff; border-left:35px solid green; border-right:35px solid green;}
+#menu li#dropline a:hover b, #menu li#dropline a:active b, #menu li#dropline a:focus b {background:green;}
+#menu li#flyout a:hover, #menu li#flyout a:active, #menu li#flyout a:focus {color:#fff; border-left:35px solid blue; border-right:35px solid blue;}
+#menu li#flyout a:hover b, #menu li#flyout a:active b, #menu li#flyout a:focus b {background:blue;}
+#menu li#support a:hover, #menu li#support a:active, #menu li#support a:focus {color:#fff; border-left:35px solid indigo; border-right:35px solid indigo;}
+#menu li#support a:hover b, #menu li#support a:active b, #menu li#support a:focus b {background:indigo;}
+#menu li#spring a:hover, #menu li#spring a:active, #menu li#spring a:focus {color:#fff; border-left:35px #009999; border-right:35px #009999;}
+#menu li#spring a:hover b, #menu li#spring a:active b, #menu li#spring a:focus b {background:#009999;}
+#menu li#contact a:hover, #menu li#contact a:active, #menu li#contact a:focus {color:#fff; border-left:35px solid violet; border-right:35px solid violet;}
+#menu li#contact a:hover b, #menu li#contact a:active b, #menu li#contact a:focus b {background:violet;}
+
+/*---
+This Is Where The Page Elments Css Starts
+---*/
+h1{
+color:#844;
+text-align:right;
+font-family: Cooper Black, Arial Black, Sans-Serif;
+}
+p.mainText{
+color:#000000;
+font-family: "Goudy Old Style",serif;
+font-size:22px;
+}
+
+#headText{
+font-family:ellis;
+font-size:30px;
+
+}
+
+img.right{
+margin:4px 4px 4px 6px; 
+float:right; 
+}
+
+img.left{
+margin:4px 6px 4px 4px; 
+float:left; 
+}
+
+hr{
+background-color:#000000;
+height:5px;
+}
